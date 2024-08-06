@@ -11,3 +11,5 @@ end)
 vim.o.si = true
 vim.o.shiftwidth = 2
 vim.cmd.colorscheme 'rose-pine'
+
+require 'opts/lualine-opts'
