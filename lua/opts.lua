@@ -8,3 +8,6 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
+vim.o.si = true
+vim.o.shiftwidth = 2
+vim.cmd.colorscheme 'rose-pine'
